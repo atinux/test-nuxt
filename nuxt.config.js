@@ -19,13 +19,14 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@/plugins/content'
   ],
 
   /*
   ** Server middleware: Add API routes
   */
   serverMiddleware: [
-    { path: '/api', handler: '@/api/index.js' }
+    { path: '/_content-api', handler: '@/server-middleware/content-api.js' }
   ],
 
   /*

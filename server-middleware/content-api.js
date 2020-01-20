@@ -18,7 +18,7 @@ app.get('*', async function (req, res) {
 
   res.json({
     metadata: {
-      title: 'A post with a cover image 2'
+      title: 'A post with a cover image'
     },
     html: '<p>Processed <i>markdown</i> to HTML</p>'
   })

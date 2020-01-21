@@ -18,6 +18,8 @@
     "remark-html": "^10.0.0",
     "remark-parse": "^7.0.2",
     "remark-stringify": "^7.0.4",
-    "unified": "^8.4.2"
+    "to-vfile": "^6.0.0",
+    "unified": "^8.4.2",
+    "vfile-reporter": "^6.0.0"
   }
 }

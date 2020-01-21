@@ -13,6 +13,6 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.9.3",
     "express": "^4.17.1",
-    "nuxt-edge": "2.12.0-26318892.e3ba6c29"
+    "nuxt-edge": "^2.11.1-26326093.d6abd9f"
   }
 }

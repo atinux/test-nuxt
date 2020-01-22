@@ -3,15 +3,17 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'NuxtJS Test',
+    title: 'Small',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Technical Test for NuxtJS' }
+      {
+        hid: 'description',
+        name: 'description',
+        content: "It's like Medium, but smaller."
+      }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   loading: false,
   css: ['normalize.css/normalize.css', './assets/main.scss'],

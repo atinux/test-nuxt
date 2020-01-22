@@ -13,14 +13,12 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
-
+  loading: false,
+  css: ['normalize.css/normalize.css', './assets/main.scss'],
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-    '@/plugins/content'
-  ],
+  plugins: ['@/plugins/content'],
 
   /*
   ** Server middleware: Add API routes
@@ -34,8 +32,12 @@ export default {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/style-resources'
   ],
+  styleResources: {
+    scss: ['./assets/_variables.scss']
+  },
   /*
   ** Axios module configuration
   */

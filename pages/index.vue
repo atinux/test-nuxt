@@ -1,20 +1,20 @@
 <template>
   <div>
-    <h1>NuxtJS Test</h1>
-    <ul>
-      <li v-for="post of posts" :key="post.path">
-        <nuxt-link :to="post.path">{{ post.metadata.title }}</nuxt-link>
-      </li>
-    </ul>
+    <PostPreviewItem v-for="post of posts" :post="post" :key="post.path"/>
   </div>
 </template>
 
 <script>
+import PostPreviewItem from '@/components/PostPreviewItem'
+
 export default {
   async asyncData({ $content }) {
     const posts = await $content('/posts')
 
     return { posts }
+  },
+  components: {
+    PostPreviewItem
   }
 }
 </script>

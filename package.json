@@ -18,7 +18,6 @@
     "fs-extra": "^8.1.0",
     "node-sass": "^4.13.1",
     "normalize.css": "^8.0.1",
-    "nuxt-edge": "^2.11.1-26327531.0487ac3",
     "remark-html": "^10.0.0",
     "remark-parse": "^7.0.2",
     "sass-loader": "^8.0.2",

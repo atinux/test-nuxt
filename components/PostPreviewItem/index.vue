@@ -33,6 +33,7 @@ export default {
 <style lang="scss" scoped>
 .post-card {
   margin-top: 3 * $spacing;
+  margin-bottom: 3 * $spacing;
   border-radius: 2 * $radius;
   padding: 2 * $spacing;
   cursor: pointer;

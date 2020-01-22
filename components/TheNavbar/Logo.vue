@@ -6,9 +6,8 @@
 
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap');
 .logo {
-  font-family: 'Playfair Display', serif;
+  font-weight: 900;
   font-size: 36px;
 }
 </style>
